@@ -1,7 +1,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class TicTacToу {
+public class TicTacToy {
     // настройки игры
     private static char [][] map; //матрица игры
     private static int SIZE = 3;  //размерность поля
