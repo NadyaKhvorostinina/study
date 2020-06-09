@@ -1,5 +1,3 @@
-package Lesson_3;
-
 import java.util.Random;
 import java.util.Scanner;
 
@@ -79,19 +77,11 @@ public class TicTacToу {
         int x = -1;
         int y = -1;
 
-        if(SILLY_MODE){
             do {
                 x = random.nextInt(SIZE);
                 y = random.nextInt(SIZE);
             } while(!isCellValid(x, y));
-        }
-        else {
-            for (int i = 0; i < SIZE; i++) {
-                for (int j = 0; j < SIZE; j++) {
-                    // Проверяем клетки по направлениям
-                }
-            }
-        }
+
 
         System.out.println("Компьютер выбрал ячейку " + (y + 1) + " " + (x + 1));
         map[y][x] = DOT_O;
